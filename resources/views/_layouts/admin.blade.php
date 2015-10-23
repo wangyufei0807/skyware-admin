@@ -104,7 +104,7 @@
                         <img class="nav-user-photo" src="../assets/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Welcome,</small>
-									Jason
+									{{$u_data["admin"]->nickname}}
 								</span>
 
                         <i class="ace-icon fa fa-caret-down"></i>
@@ -128,9 +128,9 @@
                         <li class="divider"></li>
 
                         <li>
-                            <a href="#">
+                            <a href="{{ url('/auth/logout') }}">
                                 <i class="ace-icon fa fa-power-off"></i>
-                                Logout
+                                退出
                             </a>
                         </li>
                     </ul>

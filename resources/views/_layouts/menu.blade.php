@@ -5,10 +5,11 @@
     </script>
 
     <ul class="nav nav-list">
-        <li class="active">
+        <li class="">
             <a href="#" class="dropdown-toggle">
                 <i class="menu-icon fa fa-tachometer"></i>
                 <span class="menu-text"> 系统管理 </span>
+                <b class="arrow fa fa-angle-down"></b>
             </a>
 
             <b class="arrow"></b>
